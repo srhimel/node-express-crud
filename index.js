@@ -9,7 +9,7 @@ app.use(express.json())
 
 const ObjectId = require('mongodb').ObjectId;
 
-const uri = "mongodb+srv://shahamar:3caSHHCZB8iH78MS@cluster0.pt0xz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const uri = "mongodb+srv://user:password@cluster0.pt0xz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 async function run() {
     try {
